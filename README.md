@@ -16,6 +16,14 @@ Here are some benefits of creating a portfolio website with React:
 
 By following the steps and tips in this guide, you can create a portfolio website with React that includes links to your social media, and takes advantage of the benefits listed above.
 
+## Examples
+These are some examples of portfolios from previous bootcamps:
+- [Hiba Machfej](https://hibamachfej.netlify.app/)
+- [Jennet Hydyrova](https://jennethydyrova-portfolio.netlify.app/)
+- [Ibrahim aljarad](https://ibrahimaljarad.netlify.app/)
+- [Fadime Ozdemir](https://fadimeozdemir.netlify.app/)
+- [Tarkan Mansuroglu](https://www.tarkanmansuroglu.com/)
+
 ## Steps
 
 Follow these steps to create your portfolio website with React:
