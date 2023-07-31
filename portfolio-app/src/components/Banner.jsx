@@ -9,7 +9,7 @@ import headerImg from "../assets/img/Astronaut3.png";
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Front-end Developer", "ERPNext Developer", "Frappe Developer", "Back-end Developer", "Flutter Developer"];
+    const toRotate = ["Frontend Developer", "ERPNext Developer", "Frappe Developer", "Backend Developer", "Flutter Developer"];
     const [text, setText] = useState("");
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
