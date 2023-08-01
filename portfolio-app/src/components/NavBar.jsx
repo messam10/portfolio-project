@@ -2,7 +2,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import navIcon3 from "../assets/img/icons8-github (2).svg";
 import logo from "../assets/img/React.webp";
 
 function NavBar() {
@@ -43,11 +43,10 @@ function NavBar() {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="" /></a>
-              <a href="#"><img src={navIcon2} alt="" /></a>
-              <a href="#"><img src={navIcon3} alt="" /></a>
+              <a href="https://www.linkedin.com/in/malqershi98/"><img src={navIcon1} alt="" /></a>
+              <a href="https://www.facebook.com/profile.php?id=100006287622110"><img src={navIcon2} alt="" /></a>
             </div>
-            <button className="vvd" onClick={() => { console.log("connect") }}><span>Let's Connect</span></button>
+            <button className="vvd" onClick={() => { window.open("https://app.enhancv.com/share/26a81ac9", "_blank") }}><span>Let's Connect</span></button>
           </span>
         </Navbar.Collapse>
       </Container>
